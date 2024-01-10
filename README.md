@@ -32,7 +32,7 @@ Checkout the <a href="https://microchipsupport.force.com/s/" target="_blank">Tec
 
 ### Getting started with adding RNBD451 with Arduino Zero
 
-This application shows how to use the RNBD451 along with the Arduino Zero to develop a BLE Gas Leakage sensor application with LPG CLICK. The Arduino Zero Board sends RN instructions to establish the Gas Leakage sensor application, which can be monitored in the Microchip Bluetooth Data application.
+This application shows how to use the RNBD451 along with the Arduino Zero to develop a BLE Gas Leakage sensor application with LPG CLICK. The Arduino Zero Board sends RN instructions to establish the Gas Leakage sensor application, which can be monitored using Microchip Bluetooth Data application.
 
 ![](docs/app.png)
 
@@ -279,7 +279,7 @@ void gasLeakage() {
 
 **Step 7** - The Application Serial logs can be viewed in Arduino Serial Monitor or  [TERA TERM](https://download.cnet.com/Tera-Term/3000-2094_4-75766675.html).
 
-- Baud Rate: 115200
+- Configure the Baud Rate to: 115200 
 
 ![](docs/TERATERM.png)
 
