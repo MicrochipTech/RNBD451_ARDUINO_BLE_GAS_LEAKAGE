@@ -51,7 +51,7 @@ This application shows how to use the RNBD451 along with the Arduino Zero to dev
 
 ## 4. Hardware Setup<a name="step4">
 
-- Connect the RNBD451 Module to the Mikro BUS 1 and LPG Click to the Mikro BUS 2 of the Arduino UNO click SHIELD as shown below.
+- Connect the RNBD451 Add On Board to the Mikro BUS 1 ,LPG Click to the Mikro BUS 2 of the Arduino UNO click SHIELD and mount the Arduino UNO click SHIELD on top of the Arduino Zero as shown below.
 
 ![](docs/hardware.png)
 
@@ -61,7 +61,7 @@ This application shows how to use the RNBD451 along with the Arduino Zero to dev
 
 ![](docs/lm.png)
 
-**Step 2** - The Library Manager window will open, search for RNBD451 to install.
+**Step 2** - The Library Manager window will open, search RNBD and install Microchip_RNBD41 library.
 
 ![](docs/lib.png)
 
@@ -271,11 +271,11 @@ void gasLeakage() {
 
 ```
 
-**Step 5** - Save and Verify the sketch.
-
-**Step 6** - Once the Sketch is verified select the programming port and upload the sketch.
+**Step 5** - Save and select the programming port to Verify the sketch.
 
 ![](docs/port.png)
+
+**Step 6** - Once the Sketch is verified upload the sketch.
 
 **Step 7** - The Application Serial logs can be viewed in Arduino Serial Monitor or  [TERA TERM](https://download.cnet.com/Tera-Term/3000-2094_4-75766675.html).
 
